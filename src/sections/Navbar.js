@@ -82,7 +82,7 @@ const Navbar = () => {
               </a>
 
               {subLinks && openMenu === key && (
-                <ul className="absolute left-0 top-6 bg-white text-black mt-2 p-4 rounded-lg shadow-lg w-auto min-w-max">
+                <ul className="absolute left-0 top-6 bg-white text-subtext_color mt-2 p-4 rounded-lg shadow-lg w-auto min-w-max">
                   {subLinks.map(({ title, href, subLinks }) => (
                     <li key={title} className="relative">
                       <a
@@ -106,12 +106,12 @@ const Navbar = () => {
                       </a>
 
                       {subLinks && openSubMenu === title && (
-                        <ul className="absolute left-40 bg-white text-black mt-2 p-4 rounded-lg shadow-lg w-auto min-w-max">
+                        <ul className="  text-subtext_color p-2  w-auto min-w-max font-medium">
                           {subLinks.map(({ title, href }) => (
                             <li key={title}>
                               <a
                                 href={href || "#"}
-                                className="block py-2 px-4 hover:bg-gray-200 rounded"
+                                className="block py-2 px-4 hover:text-primary_color text-subtext_color font-base rounded"
                                 onClick={(e) => {
                                   e.stopPropagation();
                                   setOpenMenu(null);
@@ -147,7 +147,7 @@ const Navbar = () => {
           {/* Mobile menu content */}
           <div
             className={`fixed top-0 right-0 z-50 w-3/5 h-full bg-white shadow-lg flex items-center px-8 
-      transition-transform duration-500 ease-in-out ${
+      transition-transform duration-1000 ease-in-out min-[320px]:w-full ${
         isMobileMenuOpen ? "translate-x-0" : "translate-x-full"
       }`}
           >
