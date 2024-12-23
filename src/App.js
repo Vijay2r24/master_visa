@@ -10,11 +10,11 @@ function App() {
     <BrowserRouter>
       {" "}
       {/* Wrap your components inside BrowserRouter */}
-      <main className="bg-bg_color h-screen w-full">
+      <main className="">
         <Header />
         <Navbar />
         <Home />
-        <Footer />
+        {/* <Footer /> */}
       </main>
     </BrowserRouter>
   );
