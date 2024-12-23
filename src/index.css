@@ -6,6 +6,11 @@ body {
   @apply font-sans;
 }
 
-.btn_outline {
-  @layer px-8 py-3 border border-1.5 rounded-full border-primary_color flex items-center gap-8;
+@layer components {
+  .btn_outline {
+    @apply px-3 py-1.5 border border-[1.5px] rounded-full border-primary_color flex items-center gap-2 text-sm font-semibold hover:bg-primary_color hover:text-white transition-all duration-500;
+  }
+  .btn_outline_circle {
+    @apply h-8 w-8 bg-primary_color text-white rounded-full flex items-center justify-center;
+  }
 }
