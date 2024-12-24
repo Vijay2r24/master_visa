@@ -8,6 +8,7 @@ import Services from "../sections/services";
 import TopRatedUniversities from "../sections/TopRatedUniversities";
 import Testimonials from "../sections/Testimonials";
 import Events from "../sections/Events";
+import Faq from "../sections/Faq";
 
 const Home = () => {
   return (
@@ -38,6 +39,7 @@ const Home = () => {
       <TopRatedUniversities />
       <Testimonials />
       <Events />
+      <Faq />
     </main>
   );
 };
