@@ -133,17 +133,17 @@ export const FooterLinks = [
 export const ReactCountUp = [
   {
     title: "Years of Experience",
-    count: 1000,
+    count: 5,
     icon: <FaBriefcase size={30} />, // Add the icon here
   },
   {
     title: "Universities",
-    count: 1000,
+    count: 400,
     icon: <FaUniversity size={30} />, // Add the icon here
   },
   {
     title: "Countries",
-    count: 1000,
+    count: 40,
     icon: <FaGlobe size={30} />, // Add the icon here
   },
   {
