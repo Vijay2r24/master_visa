@@ -14,7 +14,7 @@ function App() {
         <Header />
         <Navbar />
         <Home />
-        {/* <Footer /> */}
+        <Footer />
       </main>
     </BrowserRouter>
   );
