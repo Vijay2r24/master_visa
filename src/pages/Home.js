@@ -10,12 +10,12 @@ const Home = () => {
     <main className="lg:px-9 xl:px-32 w-full">
       {/* Banner */}
       <div>
-        <div className="px-4 md:px-8">
+        <div className="px-4 ">
           <Banner
             imageSrc={HomeBanner}
             title={"Turn your Study abroad Dreams into reality"}
             linkHref={"/courses"}
-            linkText={"Explore Now"}
+            linkText={"Start your Journey"}
             subtitle={
               "Transforming Aspirations into International Achievements"
             }
@@ -45,15 +45,15 @@ const Home = () => {
 
             <div className="mt-8">
               {/* CountUp Section */}
-              <div className="w-[517px] h-[318px] bg-white flex justify-center items-center text-center">
+              <div className="p-4 bg-white flex justify-center items-center text-center">
                 {/* CountUp Section - Flex Wrap for 4 Boxes */}
-                <div className="flex flex-wrap justify-between gap-6">
+                <div className="flex flex- flex-grow justify-between gap-4 w-full">
                   {ReactCountUp.map((item, index) => (
                     <div
                       key={index}
-                      className="w-full sm:w-1/2 lg:w-1/4 bg-white p-6 rounded-lg shadow-md flex flex-col items-center justify-center"
+                      className="w-full sm:w-1/2 lg:w-1/2 bg-gray-100 p-6 rounded-lg flex flex-wrap flex-row items-center justify-center"
                     >
-                      <div className="flex items-center justify-center mb-4">
+                      <div className="flex items-center justify-center mb-4 w-full">
                         {/* Icon */}
                         <div className="mr-2">{item.icon}</div>
                         {/* CountUp */}
@@ -61,7 +61,7 @@ const Home = () => {
                           <CountUp
                             start={0}
                             end={item.count}
-                            duration={2.5}
+                            duration={10}
                             separator=","
                           />
                         </h3>
@@ -73,7 +73,6 @@ const Home = () => {
               </div>
             </div>
           </div>
-
           {/* Right Section (Image) */}
           <div className="mt-8 md:mt-0 w-full md:w-1/2 text-center md:text-right">
             <img
