@@ -9,6 +9,8 @@ import TopRatedUniversities from "../sections/TopRatedUniversities";
 import Testimonials from "../sections/Testimonials";
 import Events from "../sections/Events";
 import Faq from "../sections/Faq";
+import NewsUpdates from "../sections/NewsUpdates";
+import Button from "../components/Button";
 
 const Home = () => {
   return (
@@ -40,6 +42,17 @@ const Home = () => {
       <Testimonials />
       <Events />
       <Faq />
+      <NewsUpdates />
+      <div className="flex flex-col items-center justify-center py-8 px-6 md:px-8 lg:px-16">
+        <h2 className="text-5xl font-bold text-center mt-6 mb-6 ">
+          Get a <span className="text-primary_color">Free Counselling</span>
+        </h2>
+        <p className="text-subtext_color text-sm font-medium mb-6 text-center">
+          Find your ideal study abroad destination, apply, and connect with our
+          expert guidance counselors
+        </p>
+        <Button>Apply Now</Button>
+      </div>
     </main>
   );
 };
