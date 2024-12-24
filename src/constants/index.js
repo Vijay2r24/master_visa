@@ -8,7 +8,7 @@ import {
   FaRegCheckCircle,
   FaBriefcase,
 } from "react-icons/fa";
-
+import { FaUserGraduate, FaPassport } from "react-icons/fa";
 export const SocialIcons = {
   facebook: {
     icon: FacebookIcon,
@@ -133,22 +133,58 @@ export const FooterLinks = [
 export const ReactCountUp = [
   {
     title: "Years of Experience",
-    count: 1000,
-    icon: <FaBriefcase size={30} />, // Add the icon here
+    count: 5,
+    icon: <FaBriefcase size={20} />,
+    color: "text-blue-500", // Add color for this item
   },
   {
     title: "Universities",
-    count: 1000,
-    icon: <FaUniversity size={30} />, // Add the icon here
+    count: 400,
+    icon: <FaUniversity size={20} />,
+    color: "text-green-500", // Add color for this item
   },
   {
     title: "Countries",
-    count: 1000,
-    icon: <FaGlobe size={30} />, // Add the icon here
+    count: 40,
+    icon: <FaGlobe size={20} />,
+    color: "text-red-500", // Add color for this item
   },
   {
     title: "Visa Approved",
     count: 1000,
-    icon: <FaRegCheckCircle size={30} />, // Add the icon here
+    icon: <FaRegCheckCircle size={20} />,
+    color: "text-yellow-500", // Add color for this item
+  },
+];
+export const studentServices = [
+  {
+    title: "Student Counselling",
+    icon: {
+      src: <FaUserGraduate />, // React Icon component
+      alt: "Student Counselling Icon",
+      backgroundColor: "#FF5733", // Background color for the icon
+    },
+    href: "/student-counselling",
+    subText: "Guiding you through academic and personal challenges.",
+  },
+  {
+    title: "Visa Counselling",
+    icon: {
+      src: <FaPassport />,
+      alt: "Visa Counselling Icon",
+      backgroundColor: "#33B5FF",
+    },
+    href: "/visa-counselling",
+    subText: "Helping you understand visa processes and requirements.",
+  },
+  {
+    title: "Choose a Suitable University",
+    icon: {
+      src: <FaUniversity />,
+      alt: "University Icon",
+      backgroundColor: "#28A745",
+    },
+    href: "/choose-university",
+    subText: "Find the perfect university for your goals and career.",
   },
 ];

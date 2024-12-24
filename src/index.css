@@ -14,4 +14,8 @@ body {
   .btn_outline_circle {
     @apply h-8 w-8 bg-primary_color text-white rounded-full flex items-center justify-center;
   }
+
+  .custom_container {
+    @apply lg:px-9 xl:px-28 w-full;
+  }
 }
