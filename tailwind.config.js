@@ -9,6 +9,7 @@ module.exports = {
         primary_color: "#E20835",
         card_color: "#F3F3F3",
         subtext_color: "#667085",
+        banner_subtext_color: "#E5E4E8",
         header_text_color: "#CACED7",
       },
       fontFamily: {
