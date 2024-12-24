@@ -7,7 +7,7 @@ import CountUp from "react-countup"; // Import CountUp
 import { ReactCountUp } from "../constants"; // Import ReactCountUp from constants
 const Home = () => {
   return (
-    <main className="lg:px-9 xl:px-32 w-full">
+    <main className="custom_container">
       {/* Banner */}
       <div>
         <div className="px-4 ">
@@ -24,7 +24,7 @@ const Home = () => {
       </div>
 
       {/* About Us Section */}
-      <section className="py-4 md:py-12 lg:py-20">
+      <section className="py-12 px-6 md:px-2">
         <Heading number={"01"} text={"About Us"} />
 
         <div className="flex flex-col md:flex-row items-center justify-between mt-8">
@@ -58,12 +58,12 @@ const Home = () => {
                         <div className="mr-2">{item.icon}</div>
                         {/* CountUp */}
                         <h3 className="text-3xl font-semibold text-gray-700">
-                          <CountUp
+                          {/* <CountUp
                             start={0}
                             end={item.count}
                             duration={10}
                             separator=","
-                          />
+                          /> */}
                         </h3>
                       </div>
                       <p className="text-lg text-gray-500">{item.title}</p>
