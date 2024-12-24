@@ -5,9 +5,10 @@ import Heading from "../components/Heading";
 import AboutImg from "../assets/about.png";
 import CountUp from "react-countup"; // Import CountUp
 import { ReactCountUp } from "../constants"; // Import ReactCountUp from constants
+import boxIcon1 from "../assets/boxIcones/Icon.png"
 const Home = () => {
   return (
-    <main className="lg:px-9 xl:px-32 w-full">
+    <main className="lg:px-9 xl:px-24 w-full">
       {/* Banner */}
       <div>
         <div className="px-4 md:px-8">

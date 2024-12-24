@@ -10,7 +10,7 @@ const AppRoutes = () => {
       element: <MainLayout />,
       children: [
         {
-          path: "/Home",
+          path: "/",
           element: <Home />,
         },
         {

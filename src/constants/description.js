@@ -11,7 +11,7 @@ const Description = ({ text, className }) => {
         text-left  
         decoration-skip-ink-none 
         text-[#667085] 
-        sm:text-[16px] 
+        sm:text-[14px]
         sm:leading-[24px] 
         ${className}`}
     >

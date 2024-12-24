@@ -11,7 +11,14 @@ module.exports = {
         subtext_color: "#667085",
         banner_subtext_color: "#E5E4E8",
         header_text_color: "#CACED7",
+        bg_customblue:"#0D1282",
+        bg_customgreen:"#9FBA3A",
+        bg_customgliteblue:"#9747FF",
+        bg_thickgreen:"#1B8730",
+        bg_customOrange:"#EF5022",
+        bg_variengreen:"#3ABB52D6",
       },
+
       fontFamily: {
         sans: ["Poppins", "sans-serif"],
       },

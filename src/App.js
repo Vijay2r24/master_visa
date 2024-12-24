@@ -5,14 +5,8 @@ import  Routes  from "../src/constants/routes";
 function App() {
   return (
     <BrowserRouter>
-      {" "}
-      {/* Wrap your components inside BrowserRouter */}
-      <main className="bg-bg_color h-screen w-full">
-        <Header />
-        <Navbar />
-        <Home />
-        <Footer />
-      </main>
+    <Routes>
+    </Routes>
     </BrowserRouter>
   );
 }
