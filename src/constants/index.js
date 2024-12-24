@@ -2,6 +2,12 @@ import FacebookIcon from "../assets/social/Facebook.svg";
 import InstagramIcon from "../assets/social/Instagram.svg";
 import LinkedinIcon from "../assets/social/linkdein.svg";
 import YoutubeIcon from "../assets/social/youtube.svg";
+import {
+  FaUniversity,
+  FaGlobe,
+  FaRegCheckCircle,
+  FaBriefcase,
+} from "react-icons/fa";
 
 export const SocialIcons = {
   facebook: {
@@ -122,5 +128,27 @@ export const FooterLinks = [
       { title: "PTE", href: "/pte" },
       { title: "TOEFL", href: "/tofel" },
     ],
+  },
+];
+export const ReactCountUp = [
+  {
+    title: "Years of Experience",
+    count: 1000,
+    icon: <FaBriefcase size={30} />, // Add the icon here
+  },
+  {
+    title: "Universities",
+    count: 1000,
+    icon: <FaUniversity size={30} />, // Add the icon here
+  },
+  {
+    title: "Countries",
+    count: 1000,
+    icon: <FaGlobe size={30} />, // Add the icon here
+  },
+  {
+    title: "Visa Approved",
+    count: 1000,
+    icon: <FaRegCheckCircle size={30} />, // Add the icon here
   },
 ];
