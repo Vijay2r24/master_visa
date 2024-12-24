@@ -3,10 +3,14 @@ import HomeBanner from "../assets/banners/home_banner.png";
 import Banner from "../components/Banner";
 import About from "../sections/About";
 import Services from "../sections/services";
+// import BuildingsSvg from "../assets/buildings.svg";
+// import HowItWorks from "../sections/HowItWorks";
+import TopRatedUniversities from "../sections/TopRatedUniversities";
+import Testimonials from "../sections/Testimonials";
 
 const Home = () => {
   return (
-    <main className="custom_container">
+    <main className="custom_container relative">
       {/* Banner */}
       <div>
         <div className="px-4 ">
@@ -24,9 +28,14 @@ const Home = () => {
 
       {/* About Us Section */}
       <About />
-
-      {/* Services Section */}
+      {/* <div
+        className="absolute top-[25%] left-0 right-0 bottom-0 bg-cover bg-no-repeat bg-center z-[-1] opacity-40 w-screen h-1/2"
+        style={{ backgroundImage: `url(${BuildingsSvg})` }}
+      /> */}
       <Services />
+      {/* <HowItWorks /> */}
+      <TopRatedUniversities />
+      <Testimonials />
     </main>
   );
 };
