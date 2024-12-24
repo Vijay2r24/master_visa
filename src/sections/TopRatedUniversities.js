@@ -37,7 +37,9 @@ const TopRatedUniversities = () => {
             "Start your success story at a renowned university with our guidance"
           }
         />
-        <Button>View all</Button>
+        <div className="hidden md:block">
+          <Button>View all</Button>
+        </div>
       </div>
       <div className="py-8">
         {/* Horizontal Scroll Container */}

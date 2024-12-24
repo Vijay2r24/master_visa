@@ -44,7 +44,9 @@ const Testimonials = () => {
             "Read more student reviews on our Google page and leave your own"
           }
         />
-        <Button>View all</Button>
+        <div className="hidden md:block">
+          <Button>see More Reviews</Button>
+        </div>
       </div>
       <div
         ref={scrollContainerRef}
