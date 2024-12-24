@@ -10,7 +10,7 @@ function App() {
     <BrowserRouter>
       {" "}
       {/* Wrap your components inside BrowserRouter */}
-      <main className="">
+      <main>
         <Header />
         <Navbar />
         <Home />
