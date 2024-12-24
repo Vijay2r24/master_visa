@@ -63,13 +63,13 @@ const Events = () => {
         {/* Navigation Buttons */}
         <div className="flex justify-center space-x-4 mt-4">
           <button
-            onClick={() => scroll("right")}
+            onClick={() => scroll("left")}
             className="p-4  border-2 border-primary_color rounded-full text-primary_color hover:border-primary_color/90 hover:text-primary_color"
           >
             <FaChevronRight />
           </button>
           <button
-            onClick={() => scroll("left")}
+            onClick={() => scroll("right")}
             className="p-4  border-2 bg-primary_color rounded-full text-white hover:bg-primary_color/90 "
           >
             <FaChevronLeft />
